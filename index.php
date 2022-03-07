@@ -57,7 +57,7 @@ function goToApp() {
 
         <script type="text/javascript">
             $('#start-app').click(function() {
-                localStorage.setItem("server", "<?= $base_url ?> ")
+                localStorage.setItem("server", "<?= $base_url ?>")
 
                 $.ajax({
                     type: "POST",
